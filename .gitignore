@@ -1,0 +1,17 @@
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+server/coverage/
+.env
+.env.*
+!.env.example
+client/.env
+client/.env.*
+!client/.env.example
+*.log
+.DS_Store
+
+# Aiven database certificates
+ca.pem
+**/ca.pem
